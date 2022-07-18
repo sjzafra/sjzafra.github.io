@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Harry Potter</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/3/37/Wizarding_World_of_Harry_Potter_-_Hogwarts_castle_close_up_%285013696905%29.jpg"
+    />
+    <link rel="stylesheet" href="treasurehunt.css" />
+    <link href="http://fonts.cdnfonts.com/css/harry-potter" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 id="top">Help Harry Escape He Who Must Not Be Named</h1>
+    <h2 id="rule">Rules</h2>
+    <button type="button" id="restart" name="Start Over">Start Over</button>
+    <br />
+    <ul>
+      <li>Click the boxes to reveal whats on the grid</li>
+      <li>If you land on Harry, you win the house cup</li>
+      <li>If you land on Voldemort, you are gone forever</li>
+    </ul>
+    <br /><br /><br />
+    <img
+      src="https://static2.srcdn.com/wordpress/wp-content/uploads/2019/11/Harry-Potter-and-Voldemort.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5"
+      width="300px"
+    />
+    <br />
+    <br />
+    <br /><br /><br />
+    <div id="game-board"></div>
+      <table class="center" id="wand" border="1">
+        <tr>
+          <td id="0" onclick="harryHider(0)">Hermione</td>
+          <td id="1" onclick="harryHider(1)">Ron</td>
+          <td id="2" onclick="harryHider(2)">Potter</td>
+        </tr>
+        <tr>
+          <td id="3" onclick="harryHider(3)">smart</td>
+          <td id="4" onclick="harryHider(4)">funny</td>
+          <td id="5" onclick="harryHider(5)">Voldemort</td>
+        </tr>
+        <tr>
+          <td id="6" onclick="harryHider(6)">Gryffindor</td>
+          <td id="7" onclick="harryHider(7)">Ravenclaw</td>
+          <td id="8" onclick="harryHider(8)">Slytherin</td>
+        </tr>
+      </table>
+    </div>
+    <footer>
+      &copy Learn Intructors | Jumpstart |
+      <a href="#top">Back to the Top</a>
+      <a href="https://www.wizardingworld.com/" target="_blank"
+        >More Harry Potter Games</a
+      >
+    </footer>
+    <script type="text/javascript" src="treasure.js"></script>
+  </body>
+</html>
