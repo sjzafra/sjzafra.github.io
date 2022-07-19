@@ -80,7 +80,7 @@ a {
 }
 
     a:hover {
-        color: #DF3927;
+        color: #3a0496;
         text-decoration: none;
     }
 
@@ -89,11 +89,11 @@ a {
     border-radius: 0px;
 }
 .btn:hover {
-background: #E24040;
+background: #3a0496;
 }
 
 .btn-primary {
-    background: #3a0496;
+    background: #9d66fb;
 }
 
 .form-control {
@@ -568,14 +568,14 @@ display: inherit;
   color: #666;
 }
 #timeline .timeline-movement .timeline-item .timeline-panel.credits .timeline-panel-ul li span.importo {
-  color: #468c1f;
+  color: #9d65ff;
   font-size: 1.3em;
 }
 #timeline .timeline-movement .timeline-item .timeline-panel.debits .timeline-panel-ul {
   text-align: left;
 }
 #timeline .timeline-movement .timeline-item .timeline-panel.debits .timeline-panel-ul span.importo {
-  color: #e2001a;
+  color: #3a0496;
   font-size: 1.3em;
 }
 
@@ -896,7 +896,7 @@ footer {
 }
 
 .social a:hover {
-    color: #c0392b;
+    color: #3a0496;
 }
 
 .social a {
@@ -1117,7 +1117,7 @@ footer {
 }
 
 #owl-demo .item {
-    background: #3fbf79;
+    background: #3a0496;
     padding: 30px 0px;
     margin: 10px;
     color: #FFF;
