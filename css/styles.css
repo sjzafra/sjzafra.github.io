@@ -504,9 +504,10 @@ background-color: #3a0496;
   font-size: 1.4em;
 }
 #timeline .timeline-badge span.timeline-balloon-date-month {
-  font-size: 13px;
+  /*font-size: 13px;*/
+  font-size: 1.2em;
 position: relative;
-top: -6px;  
+top: 11px; 
 display: inherit;
 }
 #timeline .timeline-badge.timeline-filter-movement {
