@@ -114,7 +114,7 @@ section {
     transition: opacity 0.5s ease, transform 0.5s ease;
     background-color: #fff;
     border-radius: 15px;
-    box-shadow: 3px 5px 6px rgb(0 0 0 / 33%);
+    box-shadow: 3px 4px 6px rgb(0 0 0 / 33%);
 }
 section:first-of-type {
     padding-top: 100px;
