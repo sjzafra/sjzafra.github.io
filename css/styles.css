@@ -180,7 +180,7 @@ section h2::after {
     background-color: #fff;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgb(0 0 0 / 20%);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .project-card:hover {
@@ -206,7 +206,7 @@ section h2::after {
 .publication-card {
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgb(0 0 0 / 20%);
     padding: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -235,7 +235,7 @@ section h2::after {
     padding: 20px;
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgb(0 0 0 / 20%);;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .experience-item:hover {
@@ -273,7 +273,7 @@ section h2::after {
     padding: 20px;
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgb(0 0 0 / 20%);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .experience-item2:hover {
@@ -315,7 +315,7 @@ section h2::after {
 .teaching-card {
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgb(0 0 0 / 20%);
     padding: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -342,7 +342,7 @@ section h2::after {
 .news-card {
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgb(0 0 0 / 20%);
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
